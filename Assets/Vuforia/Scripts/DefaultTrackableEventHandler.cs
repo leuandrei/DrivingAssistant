@@ -74,6 +74,7 @@ namespace Vuforia
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
+                if(!component.CompareTag("Make"))
                 component.enabled = true;
             }
 

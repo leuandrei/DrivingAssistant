@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingAssistant", "DrivingAssistant.csproj", "{63344B17-5C98-A65B-00D8-6247E9B8D901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingAssistant.Editor", "DrivingAssistant.Editor.csproj", "{59CB8F25-F5AA-3AF9-D335-06BC394A67DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63344B17-5C98-A65B-00D8-6247E9B8D901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63344B17-5C98-A65B-00D8-6247E9B8D901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63344B17-5C98-A65B-00D8-6247E9B8D901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63344B17-5C98-A65B-00D8-6247E9B8D901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CB8F25-F5AA-3AF9-D335-06BC394A67DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CB8F25-F5AA-3AF9-D335-06BC394A67DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CB8F25-F5AA-3AF9-D335-06BC394A67DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CB8F25-F5AA-3AF9-D335-06BC394A67DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
