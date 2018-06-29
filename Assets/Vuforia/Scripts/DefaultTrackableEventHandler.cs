@@ -15,12 +15,15 @@ namespace Vuforia
                                                 ITrackableEventHandler
     {
         #region PRIVATE_MEMBER_VARIABLES
- 
+
+        public Transform PanelScanMarker;
+        public Transform PanelMenu;
+
         private TrackableBehaviour mTrackableBehaviour;
-    
+
         #endregion // PRIVATE_MEMBER_VARIABLES
 
-
+        public static string carMake;
 
         #region UNTIY_MONOBEHAVIOUR_METHODS
     
@@ -74,8 +77,7 @@ namespace Vuforia
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
-                if(!component.CompareTag("Make"))
-                component.enabled = true;
+                    component.enabled = true;
             }
 
             // Enable colliders:
@@ -84,7 +86,14 @@ namespace Vuforia
                 component.enabled = true;
             }
 
+            carMake = mTrackableBehaviour.TrackableName;
+            int foundS1 = carMake.IndexOf("_");
+            carMake = carMake.Substring(foundS1 + 1, carMake.Length - 1 - foundS1);
+            
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            Debug.Log("Detected Carmake is: " + carMake);
+            PanelScanMarker.gameObject.SetActive(false);
+            PanelMenu.gameObject.SetActive(true);
         }
 
 
@@ -106,6 +115,8 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+            PanelScanMarker.gameObject.SetActive(true);
+            PanelMenu.gameObject.SetActive(false);
         }
 
         #endregion // PRIVATE_METHODS

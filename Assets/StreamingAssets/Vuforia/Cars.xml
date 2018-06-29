@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="faruri_opel" size="1.000000 1.227273" />
+    <ImageTarget name="bord_opel" size="1.000000 0.653646" />
+    <ImageTarget name="control_individual_1" size="1.000000 0.266152" />
+    <ImageTarget name="bord_skoda" size="1.000000 0.562661" />
+    <ImageTarget name="control_ventilator_2" size="1.000000 1.108460" />
+    <ImageTarget name="control_aer_2" size="1.000000 1.119048" />
+    <ImageTarget name="bord_chevrolet" size="1.000000 0.562500" />
+    <ImageTarget name="schimbator_skoda" size="1.000000 1.794392" />
+    <ImageTarget name="schimbator_chevrolet" size="1.000000 1.794392" />
+    <ImageTarget name="faruri_skoda" size="1.000000 1.794392" />
+    <ImageTarget name="logo_opel" size="1.000000 0.749480" />
+    <ImageTarget name="schimbator_opel" size="1.000000 1.058577" />
+    <ImageTarget name="dezaburire_luneta_1" size="1.000000 0.801370" />
+    <ImageTarget name="control_ventilator_1" size="1.000000 0.949045" />
+    <ImageTarget name="control_temperatura_1" size="1.000000 1.108753" />
+    <ImageTarget name="control_aer_1" size="1.000000 0.970027" />
+    <ImageTarget name="logo_skoda" size="1.000000 1.333333" />
     <ImageTarget name="logo_chevrolet" size="1.000000 1.147569" />
-    <ImageTarget name="logo_chevy" size="1.000000 1.071882" />
-    <ImageTarget name="logo_corsa" size="1.000000 0.749480" />
-    <ImageTarget name="logo_opel" size="1.000000 0.562500" />
   </Tracking>
 </QCARConfig>
